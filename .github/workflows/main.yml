@@ -1,0 +1,25 @@
+name: CI Pipeline
+
+on:
+  push:
+    branches:
+      - main # This workflow will run on every push to the main branch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest # The type of runner that the job will run on
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3 # Action to check out your repository code
+
+    - name: Setup Node.js (if your project is Node.js-based)
+      uses: actions/setup-node@v3
+      with:
+        node-version: '16'
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Run tests
+      run: npm test
