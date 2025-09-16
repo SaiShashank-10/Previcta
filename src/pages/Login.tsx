@@ -35,7 +35,7 @@ const Login = () => {
             </div>
           </div>
           <h1 className="text-3xl font-bold text-foreground">Welcome back</h1>
-          <p className="text-muted-foreground mt-2">Sign in to your ManageX account</p>
+          <p className="text-muted-foreground mt-2">Sign in to your Previcta account</p>
         </div>
 
         <Card className="card-shadow border-0 bg-card/80 backdrop-blur-sm">

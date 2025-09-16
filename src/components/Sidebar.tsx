@@ -218,9 +218,9 @@ export const Sidebar = ({ className, isMobileOpen = false, onMobileClose }: Side
           {/* Logo */}
           <div className="flex items-center gap-2 p-6 border-b border-border">
             <div className="w-8 h-8 bg-accent rounded-lg flex items-center justify-center">
-              <span className="text-accent-foreground font-bold text-lg">M</span>
+              <span className="text-accent-foreground font-bold text-lg">P</span>
             </div>
-            <span className="text-xl font-bold text-foreground">ManageX</span>
+            <span className="text-xl font-bold text-foreground">Previcta</span>
           </div>
           
           {/* Navigation Items */}
