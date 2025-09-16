@@ -11,7 +11,7 @@ export const WelcomeCard = () => {
       
       <div className="relative z-10">
         <div className="flex items-center gap-2 mb-2">
-          <h2 className="text-xl font-bold">Welcome to ManageX Service</h2>
+          <h2 className="text-xl font-bold">Welcome to Previcta Service</h2>
           <span className="text-xl">👋</span>
         </div>
         <h3 className="text-2xl font-bold mb-4">Management Dashboard 😊</h3>
